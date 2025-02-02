@@ -2,9 +2,8 @@
 
 char* welcome() {
     char x;
-    printf("enter your char value");
     scanf("%c", &x);
-    printf("%c", x);
+    printf("You entered: %c\n", x);
     return 0;
     
 }
