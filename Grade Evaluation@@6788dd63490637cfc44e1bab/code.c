@@ -3,23 +3,21 @@ int main() {
     char x;
     scanf("%c", &x);
     switch(x){
-        case "A":
+        case 'A':
             printf("Excellent");
             break;
-        case "B":
+        case 'B':
             printf("Good");
             break;
-        case "C":
+        case 'C':
             printf("Average");
             break;
-        case "D":
+        case 'D':
             printf("Bleow Average");
             break;
-        case "E":
+        case 'E':
             printf("Fail");
             break;
-
-
     }
     return 0;
 }
