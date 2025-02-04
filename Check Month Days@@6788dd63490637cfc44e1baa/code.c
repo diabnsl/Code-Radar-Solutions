@@ -3,13 +3,13 @@ int main() {
     double  x;
     scanf("%lf\n", &x);
     switch(x) {
-        case('1','3','5','7','10','12'):
+        case('1','3','5','7',):
                 printf("31");
                 break;
         case '2':
             printf("28");
             break;
-        case ('4','6','8','9'.'11'):
+        case ('4','6','8','9'):
             printf("30");
             break;
         default:
