@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    double x;
-    scanf("%lf\n", &x);
+    int x;
+    scanf("%d\n", &x);
     switch(x) {
         case('1','3','5','7','10','12'):
             printf("31");
