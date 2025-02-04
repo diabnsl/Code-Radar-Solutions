@@ -3,10 +3,10 @@
 int main() {
     int cp,sp;
     scanf("%d\n", &cp,&sp);
-    if (sp < cp) {
+    if (cp < sp) {
         printf("Profit");
     }
-    else if (sp > cp) {
+    else if (cp > sp) {
         printf("Loss");
     }
     else if (cp == sp) {
