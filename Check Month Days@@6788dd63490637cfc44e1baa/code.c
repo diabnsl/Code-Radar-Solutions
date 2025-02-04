@@ -2,7 +2,7 @@
 int main() {
     double  x;
     scanf("%lf", &x);
-    switch(x){
+    switch(x) {
         case('1','3','5','7','10','12'):
                 printf("31");
                 break;
