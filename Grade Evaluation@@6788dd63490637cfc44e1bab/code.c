@@ -15,7 +15,7 @@ int main() {
         case 'D':
             printf("Bleow Average");
             break;
-        case 'E':
+        case 'F':
             printf("Fail");
             break;
     }
