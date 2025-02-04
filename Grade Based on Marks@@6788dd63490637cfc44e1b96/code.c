@@ -2,7 +2,7 @@
 
 int main() {
     int x;
-    scanf("%d", &x)
+    scanf("%d", &x);
     if (x>= 90){
         printf("A");
     }
@@ -16,7 +16,7 @@ int main() {
         printf("D");
     }
     else{
-        printf("F")
+        printf("F");
     }
     return 0;
 }
