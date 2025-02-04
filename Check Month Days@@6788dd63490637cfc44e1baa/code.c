@@ -40,7 +40,7 @@ int main() {
             printf("31");
             break;
         default:
-            printf("Invalid input");
+            printf("Invalid month");
             break;
     }
     
