@@ -9,8 +9,9 @@ int main() {
     else if(islower(x)){
         printf("Lowercase");
     }
-    else if (ispunct(x)){
+    else {
         printf("Not an alphabet");
     }
+    
     return 0;
 }
