@@ -19,7 +19,7 @@ int main() {
             break;
         default:
             printf("Invalid operator");
-            
+            break;
     }
     
     return 0;
