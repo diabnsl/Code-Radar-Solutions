@@ -18,7 +18,7 @@ int main() {
         printf("Special Character");
     }
     else if (isdigit(ch)) {
-        printf("%c is a digit.\n", ch);
+        printf("Digit");
         }
     else {
         printf("Invalid");
