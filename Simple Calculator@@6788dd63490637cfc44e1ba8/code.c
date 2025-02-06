@@ -5,20 +5,20 @@ int main() {
     scanf("%f %f", &x, &y);
     scanf("%c", &opt);
     switch(opt){
-        case +:
+        case '+':
             printf("%.2f", x + y);
             break;
-        case -:
+        case '-':
             printf("%.2f", x - y);
             break;
-        case *:
+        case '*':
             printf("%.2f", x * y);
             break;
-        case /:
+        case '/':
             printf("%.2f", x / y);
             break;
         default:
-            printf("Invalid operator");
+            printf("error");
             break;
     }
     
