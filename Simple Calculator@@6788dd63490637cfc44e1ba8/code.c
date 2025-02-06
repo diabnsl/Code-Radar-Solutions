@@ -7,16 +7,16 @@ int main() {
     scanf("%c", &opt);
     switch(opt){
         case '+':
-            printf("%.2f", x + y);
+            printf("%f", x + y);
             break;
         case '-':
-            printf("%.2f", x - y);
+            printf("%f", x - y);
             break;
         case '*':
-            printf("%.2f", x * y);
+            printf("%f", x * y);
             break;
         case '/':
-            printf("%.2f", x / y);
+            printf("%f", x / y);
             break;
         default:
             printf("error");
