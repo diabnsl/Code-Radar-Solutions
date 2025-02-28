@@ -3,8 +3,9 @@
 int main() {
     int i, j;
     char ch;
+    int N;
 
-    for (i = 5; i >= 1; i--) {
+    for (i = N; i >= 1; i--) {
         ch = 'A'; // Start with 'A' for each row
         for (j = 1; j <= i; j++) {
             printf("%c", ch);
