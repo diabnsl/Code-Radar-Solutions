@@ -1,16 +1,18 @@
 #include <stdio.h>
+
 int main() {
-    int j, i;
-    int N;
+    int i, j;
     char ch;
-    scanf("%d", &N);
-    for (i = N; i >= 1; i--) { 
-        ch = 'A' 
-        for (j = 1; j <= i; j++) {  
-            printf("%c ", ch);
-            ch++  
+
+    for (i = 5; i >= 1; i--) {
+        ch = 'A'; // Start with 'A' for each row
+        for (j = 1; j <= i; j++) {
+            printf("%c", ch);
+            ch++;
         }
-        printf("\n");  
+        printf("\n");
     }
+
     return 0;
 }
+
