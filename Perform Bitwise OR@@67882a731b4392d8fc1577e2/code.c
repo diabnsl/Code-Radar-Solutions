@@ -4,7 +4,7 @@ int main(){
    int y;
    scanf("%d %d", &x,&y);
    c = x|y;
-   printf(%d, c);
+   printf("%d", c);
    return 0;
 }
     
