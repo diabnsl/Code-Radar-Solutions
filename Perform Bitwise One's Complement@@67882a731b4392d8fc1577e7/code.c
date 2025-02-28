@@ -1,9 +1,8 @@
 #include <stdio.h>
 int main(){
    int x,c;
-   int y;
-   scanf("%d %d", &x,&y);
-   c = x~y;
+   scanf("%d ", &x,);
+   c = ~x;
    printf("%d", c);
    return 0;
 }
