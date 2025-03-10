@@ -9,7 +9,7 @@ int main(){
     }
     for(int j=0; j<=n-1; j++){
         sum = sum + arr[j];
-        printf("%d", sum);
+        printf("%d ", sum);
     }
     return 0;
 }
