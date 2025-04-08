@@ -13,9 +13,9 @@ int main(){
         else{
             odd = odd + 1;
         }
+    
+    }
     printf("%d\n", even);
     printf("%d\n", odd);
-    }
-   
     return 0;
 }
