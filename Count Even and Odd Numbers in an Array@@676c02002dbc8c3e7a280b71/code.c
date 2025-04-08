@@ -7,7 +7,7 @@ int main(){
         scanf("%d", &arr[i]);
     }
     for (int i = 0;i<N;i++){
-        if(arr[i]/2 == 0){
+        if(arr[i]%2 == 0){
             even = even + 1;
         }
         else{
@@ -15,7 +15,7 @@ int main(){
         }
     
     }
-    printf("%d\n", even);
-    printf("%d\n", odd);
+    printf("%d ", even);
+    printf("%d", odd);
     return 0;
 }
